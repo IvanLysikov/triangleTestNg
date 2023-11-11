@@ -1,0 +1,36 @@
+1;1;1;equilateral;s
+2147483647;2147483647;2147483647;equilateral;s
+1073741824;1073741824;1073741824;equilateral;s
+2;2;3;isosceles;s
+2;3;2;isosceles;s
+3;2;2;isosceles;s
+2147483647;2147483647;2147483646;isosceles;s
+2147483647;2147483646;2147483647;isosceles;s
+2147483646;2147483647;2147483647;isosceles;s
+1073741824;1073741824;1073741823;isosceles;s
+1073741824;1073741823;1073741824;isosceles;s
+1073741823;1073741824;1073741824;isosceles;s
+2;3;4;scalene;s
+3;4;2;scalene;s
+4;2;3;scalene;s
+2147483647;2147483646;2147483645;scalene;s
+2147483646;2147483645;2147483647;scalene;s
+2147483645;2147483647;2147483646;scalene;s
+1073741824;1073741823;1073741822;scalene;s
+1073741823;1073741822;1073741824;scalene;s
+1073741822;1073741824;1073741823;scalene;s
+;1;1;It is impossible to create triangle: not enough data;e
+1;1;;It is impossible to create triangle: not enough data;e
+1;;1;It is impossible to create triangle: not enough data;e
+-1;1;1;It is impossible to create triangle: data is out of range [1:2147483647];e
+1;1;-1;It is impossible to create triangle: data is out of range [1:2147483647];e
+1;-1;1;It is impossible to create triangle: data is out of range [1:2147483647];e
+2147483648;1;1;It is impossible to create triangle: data is out of range [1:2147483647];e
+1;1;2147483648;It is impossible to create triangle: data is out of range [1:2147483647];e
+1;2147483648;1;It is impossible to create triangle: data is out of range [1:2147483647];e
+2;1;1;It is impossible to create triangle on a plane, at least in this universe;e
+1;1;2;It is impossible to create triangle on a plane, at least in this universe;e
+1;2;1;It is impossible to create triangle on a plane, at least in this universe;e
+2;1;1;It is impossible to create triangle on a plane, at least in this universe;e
+1;1;2;It is impossible to create triangle on a plane, at least in this universe;e
+1;2;1;It is impossible to create triangle on a plane, at least in this universe;e
